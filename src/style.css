@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 30px;
+}
+h1{
+    color: rgb(6, 71, 71);
+    cursor: pointer;
+    font-size: 40px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+li{
+    cursor: pointer;
+    color: gray;
+    font-size: 20px;
+}
+li:hover{
+    color: rgb(6, 71, 71);
+    border-bottom: 1px solid gray;
+}
+button{
+        padding: 8px 16px;
+        font-size: 25px;
+        border-radius: 3px;
+        border: 1px solid rgb(0, 0, 0);
+        color: rgb(6, 71, 71);
+        background: #fff;
+        cursor: pointer;
+}
+button:hover{
+    color: #fff;
+    background-color: rgb(6, 71, 71);
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rebeccapurple;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 16px;
+}
+form>p{
+    margin-left: auto;
+    cursor: pointer;
+    color: red;
+    font-size: 25px;
+}
+form>input{
+    border: none;
+    border-bottom: 1px solid rebeccapurple;
+    padding: 6px 12px;
+    font-size: 18px;
+    background-color: none;
+}
+form>button{
+    padding: 9px 16px;
+    font-size: 22px;
+    border: 1px solid rebeccapurple;
+    color: rebeccapurple;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: none;
+}
+form>button:hover{
+    background-color: rebeccapurple;
+    color: #fff;
+}

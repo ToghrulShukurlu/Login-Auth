@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "finCode": "zahid123",
+    "password": "zaza123",
+    "fullname": "Zahid Vahabzade",
+    "age": 23,
+    "honey": 9,
+    "notifications": [
+      {
+        "id": 123,
+        "title": "Radara dusmusen",
+        "price": 25
+      },
+      {
+        "id": 124,
+        "title": "Dayanma Durma pozulub",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "finCode": "togrul123",
+    "password": "toti123",
+    "fullname": "Togrul Shukurlu",
+    "age": 20,
+    "honey": 11,
+    "notifications": [
+      {
+        "id": 123,
+        "title": "Ickili Veziyyetde",
+        "price": 400
+      },
+      {
+        "id": 124,
+        "title": "Avtoxuliqanliq",
+        "price": 80
+      }
+    ]
+  }
+]
